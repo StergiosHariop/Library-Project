@@ -1,0 +1,103 @@
+body{
+    font-family: 'Playball', cursive;
+    background-color:#3d3a35;
+    margin: 0;
+}
+h1{
+    color:white;
+    font-size: 60px;
+}
+
+header{
+    overflow: hidden;
+    background-size: cover;
+    background: url(library-image.png) 50% 85%;
+    height: 500px;
+    border: 2px solid;
+    text-align: center;
+}
+.input-titles{
+    color: #fff; 
+    font-size: 30px;
+}
+.input-box{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Playball', cursive;
+    text-align: center;
+    font-size: 18px;
+}
+.input-buttons{
+    margin-top: 30px;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background:#c9b255;
+    font-family: 'Playball', cursive;
+    font-size: 18px;
+}
+.input-buttons:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.219);
+    background: #e9d484;
+}
+#library{
+    display:flex; 
+    flex-wrap: wrap; 
+    justify-content: left; 
+    padding: 20px;
+}
+
+.book-cover{ 
+    background-color: #3c8089;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid;
+    margin-left: 20px;
+    padding: 15px;
+    word-wrap: break-word;
+    text-align: center;
+    min-height: 300px;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;  
+}
+.book-cover:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.781);
+}
+.title{
+    font-size: 30px;
+}
+.author{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.pages{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.read-toggle{
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.remove{
+    padding: 7px 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border: none;
+    background: #2B3044;
+    outline: none;
+    border-radius: 7px;
+    color: #fff;
+    font-family: 'Playball', cursive;
+    font-size: 20px;
+}
+.remove:hover{
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.219);
+}

@@ -1,4 +1,4 @@
-<b>Library Project for the Odin Project</b>
+<h1><b>Library Project for the Odin Project</b></h1>
 
 Documentation:
 https://www.theodinproject.com/courses/javascript/lessons/library

@@ -1,6 +1,5 @@
 <h1><b>Library Project</b></h1>
 
-Documentation:
 https://www.theodinproject.com/courses/javascript/lessons/library
 
 Practice foundations of Objects, Constructors in Javascript.

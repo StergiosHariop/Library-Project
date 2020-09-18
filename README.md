@@ -1,4 +1,4 @@
-Library Project for the Odin Project
+<b>Library Project for the Odin Project</b>
 
 Documentation:
 https://www.theodinproject.com/courses/javascript/lessons/library
